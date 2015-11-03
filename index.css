@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Sans-Serif;
+	letter-spacing: 0.01em;
+	line-height: 1.15em;
+	margin: 12px auto 12px;
+	max-width: 42em;
+}
+
+h1 {
+	text-align: center;
+	line-height: 2em;
+}
+
+div#logo {
+	text-align: center;
+	height: 100px;
+}
+
+div#logo img {
+	height: 100%;
+}
