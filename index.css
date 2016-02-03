@@ -16,6 +16,12 @@ h1 {
 	line-height: 2em;
 }
 
+p {
+	text-align: justify;
+	text-indent: 40px;
+	margin: 7px 0;
+}
+
 div#logo {
 	text-align: center;
 	height: 100px;
