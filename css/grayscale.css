@@ -27,15 +27,21 @@ h6 {
 h1.brand-heading {
   margin: 0 0 21px;
 }
+dt, dd, ol > li, .checkbox {
+  font-size: 15px;
+}
 p {
-  margin: 0 0 7px;
-  font-size: 11px;
+  margin: 0 0 5px;
+  font-size: 15px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
+  dt, dd, ol > li, .checkbox {
+    font-size: 17px;
+  }
   p {
     margin: 0 0 15px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.6;
   }
 }
@@ -262,7 +268,7 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .service-section {
   width: 100%;
