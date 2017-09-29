@@ -401,3 +401,6 @@ body.course {
 .has-feedback label.sr-only~.form-control-feedback {
   top: 9px;
 }
+.tooltip-inner {
+  max-width: 100vw;
+}
