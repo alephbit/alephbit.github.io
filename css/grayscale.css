@@ -35,7 +35,7 @@ p {
   font-size: 15px;
   line-height: 1.5;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   dt, dd, ol > li, .checkbox {
     font-size: 17px;
   }
@@ -46,7 +46,7 @@ p {
   }
 }
 a {
-  color: #7f007f;
+  color: #c500c5;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #6f006f;
+  color: #b100b1;
 }
 .light {
   font-weight: 400;
@@ -88,7 +88,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: #7f007f;
+  color: #c500c5;
   outline: none;
   background-color: transparent;
 }
@@ -105,7 +105,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  color: #7f007f;
+  color: #c500c5;
 }
 .navbar-custom .navbar-logo {
   float: left;
@@ -126,7 +126,7 @@ a:focus {
   font-family: 'Raleway', sans-serif;
   font-size: 11px;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -185,7 +185,7 @@ a:focus {
   font-size: 40px;
 }
 .intro .intro-body .brand-heading span {
-  color: #7f007f;
+  color: #c500c5;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
@@ -268,11 +268,11 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 90px;
+  min-height: 75vh;
+  padding-top: 50px;
 }
 .service-section {
   width: 100%;
-  padding: 50px 0;
   background: url(../img/services-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -291,7 +291,6 @@ a:focus {
 }
 .course-section {
   width: 100%;
-  padding: 50px 0;
   background: url(../img/courses-bg.jpg) no-repeat center center scroll;
   background-color: black;
   color: #fff;
@@ -310,9 +309,6 @@ a:focus {
   -o-background-size: cover;
 }
 @media (min-width: 767px) {
-  .service-section {
-    padding: 100px 0;
-  }
 }
 .btn {
   text-transform: uppercase;
@@ -401,4 +397,7 @@ body {
 }
 body.course {
   background-color: #bbb;
+}
+.has-feedback label.sr-only~.form-control-feedback {
+  top: 9px;
 }
