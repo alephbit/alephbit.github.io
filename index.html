@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A Aleph-bit é uma empresa de desenvolvimento e treinamento com foco em Aprendizado de Máquina, Segurança, Sistemas Operacionais Unix e Bibliotecas">
+    <meta name="description" content="A Aleph-bit é uma empresa de desenvolvimento e treinamento com foco em Segurança, Sistemas Operacionais Unix e Aprendizado de Máquina">
     <meta name="author" content="Aleph-bit Team">
 
-    <title>Aleph-bit | Computação Avançada</title>
+    <title>Aleph-bit | Segurança da Informação & Computação Avançada</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vlibs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -354,7 +354,10 @@
     <script src="js/grayscale.min.js"></script>
     <script>
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
+  if (/#trainings/.test(window.location.href)) {
+    $("head").append('<meta property="og:image" content="http://www.alephbit.com.br/img/knowledge-is-power.jpg">');
+  }
 })
     </script>
 
